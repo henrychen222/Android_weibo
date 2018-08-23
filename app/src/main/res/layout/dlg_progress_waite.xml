@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dpw_linear_custom"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#88000000"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/dpw_pb_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:indeterminateDrawable="@drawable/color_progress" />
+
+    <TextView
+        android:id="@+id/dpw_tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:text="请等待..."
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</LinearLayout>

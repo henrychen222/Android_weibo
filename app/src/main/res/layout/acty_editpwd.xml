@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.weibotest08_31.widget.TitleBar
+        android:id="@+id/ae_tb_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录名" />
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:id="@+id/ae_et_loginname"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旧密码" />
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:id="@+id/ae_et_oldpwd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新密码" />
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:id="@+id/ae_et_newpwd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ae_bt_update"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="提交"
+        android:textColor="#ffffff" />
+		
+        <TextView
+            android:id="@+id/ae_et_pwd"
+            android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

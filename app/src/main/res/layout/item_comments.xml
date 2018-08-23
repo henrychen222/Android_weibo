@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:id="@+id/ic_iv_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:padding="3dp"
+        android:src="@drawable/head5" />
+
+    <TextView
+        android:id="@+id/ic_tv_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/ic_iv_head"
+        android:padding="3dp"
+        android:text="零比一" />
+
+    <TextView
+        android:id="@+id/ic_tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_tv_nick"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ic_iv_head"
+        android:padding="3dp"
+        android:text="简介：暂无简介"
+        android:textColor="#66000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/ic_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="06:06" />
+
+</RelativeLayout>

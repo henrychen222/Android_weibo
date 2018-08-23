@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.weibotest08_31.widget.TitleBar
+        android:id="@+id/af_tb_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp">
+
+        <EditText
+            android:id="@+id/af_et_search"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+
+            android:layout_toLeftOf="@+id/af_iv_search"
+            android:background="@drawable/shapesearch" />
+
+        <ImageView
+            android:id="@+id/af_iv_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/ico_search" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/af_lv_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollingCache="false" />
+
+</LinearLayout>

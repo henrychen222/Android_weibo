@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.weibotest08_31.widget.TitleBar
+        android:id="@+id/af_tb_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="用户名"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/af_tv_loginname"
+            android:layout_marginLeft="20dp"
+            android:layout_width="260dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容" />
+
+        <EditText
+            android:gravity="top|left"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/af_et_context"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:lines="5"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/af_bt_update"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="提交"
+        android:textColor="#ffffff" />
+		
+        <TextView
+            android:id="@+id/af_et_pwd"
+            android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

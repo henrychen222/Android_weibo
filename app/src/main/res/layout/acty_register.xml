@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.weibotest08_31.widget.TitleBar
+        android:id="@+id/ar_tb_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录名" />
+
+        <EditText
+            android:id="@+id/ar_et_loginname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入登录名" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码" />
+
+        <EditText
+            android:id="@+id/ar_et_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="真实姓名" />
+
+        <EditText
+            android:id="@+id/ar_et_truename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入真实姓名" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年龄" />
+
+        <EditText
+            android:id="@+id/ar_et_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入年龄" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别" />
+
+        <EditText
+            android:id="@+id/ar_et_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入性别" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话" />
+
+        <EditText
+            android:id="@+id/ar_et_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入电话" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像" />
+
+        <EditText
+            android:id="@+id/ar_et_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:singleLine="true"
+            android:text="/image/user_head.jpg" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ar_bt_register"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="注册" />
+
+</LinearLayout>

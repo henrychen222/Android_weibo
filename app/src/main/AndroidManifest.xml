@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weibotest08_31" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:name="com.example.weibotest08_31.WeiboApp"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.weibotest08_31.acty.LogoActy"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.weibotest08_31.acty.AddCommentsActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.WeiboDetialActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.LeaveMsgActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.AddCaresActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.UserDetialsActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.OtherDetialActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.FansListActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.VersionActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.FeedBackActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.AboutUsActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.EditPwdActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.EditPersonalActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.BackPwdActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.RegisterActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.SendWeiboActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.LoginActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.MainTabActy"/>
+        <activity android:name="com.example.weibotest08_31.acty.Tab1Activity"/>
+        <activity android:name="com.example.weibotest08_31.acty.Tab2Activity"/>
+        <activity android:name="com.example.weibotest08_31.acty.Tab3Activity"/>
+        <activity android:name="com.example.weibotest08_31.acty.Tab4Activity"/>
+    </application>
+
+</manifest>

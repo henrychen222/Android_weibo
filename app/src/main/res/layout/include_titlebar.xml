@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#33CCFF" 
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <Button
+        android:id="@+id/it_bt_left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:background="#33CCFF"
+        android:text="返回"
+        android:textColor="#FCFCFC"
+        android:textSize="15sp" 
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/it_iv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/left_back"
+         />
+
+    <TextView
+        android:id="@+id/it_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="个人中心"
+        android:textColor="#FCFCFC"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/it_bt_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="#33CCFF"
+        android:text="注册"
+        android:textColor="@color/colorchange"
+        android:textSize="15sp" 
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/it_iv_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

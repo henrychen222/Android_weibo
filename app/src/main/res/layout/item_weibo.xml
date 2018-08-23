@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iw_im_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/iw_tv_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iw_im_head"
+            android:paddingLeft="10dp"
+            android:text="周一"
+            android:textColor="#ff3333"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/iw_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:text="16:16"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/iw_tv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iw_tv_username"
+            android:layout_toRightOf="@+id/iw_im_head"
+            android:paddingLeft="10dp"
+            android:text="今天是个好日子今天是个好日子今天是个好日子今天是个好日子今天是个好日子"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iw_iv_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/iw_tv_commot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="评论(1)" />
+
+        <TextView
+            android:id="@+id/iw_tv_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/iw_tv_commot"
+            android:text="赞(1)" />
+    </RelativeLayout>
+
+</LinearLayout>

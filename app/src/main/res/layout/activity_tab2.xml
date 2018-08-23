@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.weibotest08_31.widget.TitleBar
+        android:id="@+id/at2_tb_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <EditText
+
+            android:id="@+id/at2_et_search"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/at_iv_search"
+            android:background="@drawable/shapesearch"
+            />
+        <ImageView
+            android:id="@+id/at2_iv_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ico_search"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/at2_lv_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollingCache="false"/>
+
+</LinearLayout>
