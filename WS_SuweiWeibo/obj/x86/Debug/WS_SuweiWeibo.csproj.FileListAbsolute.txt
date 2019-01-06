@@ -1,0 +1,10 @@
+E:\bin\WS_SuweiWeibo.dll
+E:\bin\WS_SuweiWeibo.pdb
+E:\微软实习\毕业设计\9.18\服务端\WS_SuweiWeibo_20150918\WS_SuweiWeibo\obj\x86\Debug\WS_SuweiWeibo.csprojResolveAssemblyReference.cache
+E:\微软实习\毕业设计\9.18\服务端\WS_SuweiWeibo_20150918\WS_SuweiWeibo\obj\x86\Debug\WS_SuweiWeibo.dll
+E:\微软实习\毕业设计\9.18\服务端\WS_SuweiWeibo_20150918\WS_SuweiWeibo\obj\x86\Debug\WS_SuweiWeibo.pdb
+C:\bin\WS_SuweiWeibo.dll
+C:\bin\WS_SuweiWeibo.pdb
+C:\Users\Wei Chen\Documents\lenovo old laptop  material\E\微软实习\毕业设计\9.18\服务端\WS_SuweiWeibo_20150918\WS_SuweiWeibo\obj\x86\Debug\WS_SuweiWeibo.csprojResolveAssemblyReference.cache
+C:\Users\Wei Chen\Documents\lenovo old laptop  material\E\微软实习\毕业设计\9.18\服务端\WS_SuweiWeibo_20150918\WS_SuweiWeibo\obj\x86\Debug\WS_SuweiWeibo.dll
+C:\Users\Wei Chen\Documents\lenovo old laptop  material\E\微软实习\毕业设计\9.18\服务端\WS_SuweiWeibo_20150918\WS_SuweiWeibo\obj\x86\Debug\WS_SuweiWeibo.pdb
